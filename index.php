@@ -13,10 +13,10 @@ function weatherInfo($temp)
     }
 }
     
-function convertToCelsius($temperature)
+function convertToCelsius($temp)
 {
-  $celsius = (($temperature) - 32) * (5/9);
-  return $celsius;
+  $cels = (($temp) - 32) * (5/9);
+  return $cels;
 } 
 
 echo weatherInfo($_POST['tempfar']);
